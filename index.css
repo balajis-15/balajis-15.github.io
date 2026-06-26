@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    overflow-x: hidden; 
+    overflow: hidden; 
 }
  header{
     background-color: #0b0b0b;
@@ -91,7 +96,7 @@ body{
  #skills li:hover{
   background-color:blueviolet;
   color: pink;
-  transform: scale(1.05);
+  transform:scale(1.05);
   cursor: pointer;
  }
 
