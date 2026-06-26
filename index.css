@@ -36,9 +36,10 @@ body{
  nav {
     background-color: #13202f;
     padding: 15px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    text-align: center;
  }
 
  nav a{
